@@ -9,6 +9,7 @@
 
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
@@ -16,11 +17,15 @@ int main()
     char FirstInitial;
     char MiddleInitial;
     char LastInitial;
-    cout << "Please enter the initial of your first name:";
+    string FirstName;
+    cout << "Please enter the initial of your first name: ";
     cin >> FirstInitial;
-    cout << "Please enter the initial of your middle name:";
+    cout << "Please enter the initial of your middle name: ";
     cin >> MiddleInitial;
-    cout << "Please enter the initial of your last name:";
+    cout << "Please enter the initial of your last name: ";
     cin >> LastInitial;
     cout << "Your initials are: " << FirstInitial << MiddleInitial << LastInitial;
+    cout << "\nPlease enter your first name: ";
+    cin >> FirstName;
+    cout << "Your first name is: " << FirstName;
 }
