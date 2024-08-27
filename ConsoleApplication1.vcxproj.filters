@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Checkpoint2.14.cpp">
+    <ClCompile Include="Checkpoint2.17.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
