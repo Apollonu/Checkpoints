@@ -1,12 +1,12 @@
-/*  Program File Name: Checkpoint2.14 
+/*  Project Name: Checkpoints
+    Branch: Checkpoint-2.14-Updated
     Programmer: Harrison Hudgins
-    Date: August, 2024
+    Date: August, 27, 2024
     Requirements:
     Write a program that has the following character variables:
     first, middle, and last. Store your initials in these variables
     then display them on the screen
 */
-
 
 #include <iostream>
 #include <string>
