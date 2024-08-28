@@ -5,9 +5,6 @@
     Requirements:
     Write a program that stores your name, address, and phone number in three separate string
     objects. Display the contents of the string objects on the screen
-
-    Replace the code in the main function with the code for this program. Compile and run the
-    program. Verify that it is producing the correct results.
 */
 
 
