@@ -16,10 +16,13 @@
 
 #include <iostream>
 using namespace std;
-const double risingLevel = 1.5;
 
 int main()
 {
+    cout << "Please enter the number of millimeters the ocean level rises each year. ";
+    double risingLevel;
+    cin >> risingLevel;
+
     double levelInYears5 = risingLevel * 5;
     cout << "After 5 years the Ocean will have risen " << levelInYears5 << " millimeters" << endl;
 
