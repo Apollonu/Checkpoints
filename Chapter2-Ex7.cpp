@@ -1,15 +1,15 @@
 /*  Project Name: Chapter 2 Exercise 7 - Ocean levels
-    File Name: Chapter2-Ex2-Harrison_Hudgins.cpp
+    File Name: Chapter2-Ex7.cpp
     Programmer: Harrison Hudgins
     Date: August 30, 2024
     Requirements:
-    Assuming the ocean’s level is currently rising at about 1.5 millimeters per year, write a program that displays:
-    • The number of millimeters higher than the current level
-        that the ocean’s level will be in 5 years.
-    • The number of millimeters higher than the current level
-        that the ocean’s level will be in 7 years.
-    • The number of millimeters higher than the current level
-        that the ocean’s level will be in 10 years.
+    Assuming the oceanâ€™s level is currently rising at about 1.5 millimeters per year, write a program that displays:
+    â€¢ The number of millimeters higher than the current level
+        that the oceanâ€™s level will be in 5 years.
+    â€¢ The number of millimeters higher than the current level
+        that the oceanâ€™s level will be in 7 years.
+    â€¢ The number of millimeters higher than the current level
+        that the oceanâ€™s level will be in 10 years.
     Once you have coded this and placed in your main branch in GitHub, create a second branch that revises your code so
     that the user can enter the number of the number of millimeters the ocean level rises per year..
 */
