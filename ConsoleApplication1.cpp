@@ -1,5 +1,5 @@
 /*  Project Name: Chapter 4 Exercise 23 - Geometry Calculator
-	File Name: Chapter2-Ex10-Harrison_Hudgins.cpp
+	File Name: Checkpoint-4-Exercise-23-Harrison_Hudgins.cpp
 	Programmer: Harrison Hudgins
 	Date: October 8, 2024
 	Requirements:
