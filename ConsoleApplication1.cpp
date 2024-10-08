@@ -1,6 +1,11 @@
-/*
-
+/*  Project Name: Chapter 4 Exercise 23 - Geometry Calculator
+	File Name: Chapter2-Ex10-Harrison_Hudgins.cpp
+	Programmer: Harrison Hudgins
+	Date: October 8, 2024
+	Requirements:
+	Make a calculator that can computer the area of a circle, rectangle and triangle that accounts for negative numbers
 */
+
 #include <iostream>
 #include <cmath>
 
@@ -18,11 +23,11 @@ int main()
 		double base;
 		double height;
 		double pi = 3.1419;
-		cout << "1 Computer the area of a circle\n";
-		cout << "2 Computer the area of a rectangle\n";
-		cout << "3. Computer the area of a triangle\n";
-		cout << "4. Exit\n";
-		cout << "Please enter the number of your choice\n\n";
+		cout << "1 Computer the Area of a circle\n";
+		cout << "2 Computer the Area of a rectangle\n";
+		cout << "3. Computer the Area of a triangle\n";
+		cout << "4. Quit\n";
+		cout << "Enter your choice (1–4):\n\n";
 			cin >> choice;
 		switch (choice)
 			{
