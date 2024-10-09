@@ -1,5 +1,5 @@
 /*  Project Name: Chapter 2 Exercise 18 - Energy Drinks
-    File Name: Chapter2-Ex18.cpp
+    File Name: ConsoleApplication1.cpp
     Programmer: Harrison Hudgins
     Date: September 25, 2024
     Requirements:
