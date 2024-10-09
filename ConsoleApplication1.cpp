@@ -7,14 +7,22 @@
 */
 
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
+
 using namespace std;
 
-int num1 = rand() % 1000;
-int num2 = rand() % 1000;
+
 int input;
 int total;
+
 int main()
 {
+    unsigned seed = time(0);
+    srand(seed);
+    int num1 = rand() % 1000;
+    int num2 = rand() % 1000;
+
     cout << "  " << num1 << "\n";
     cout << "+ " << num2 << "\n";
     cout << "--------\n";
