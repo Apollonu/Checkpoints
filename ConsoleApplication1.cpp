@@ -3,7 +3,8 @@
     Programmer: Harrison Hudgins
     Date: October 9, 2024
     Requirements:
-    Write a program that can be used as a math tutor for a young student.
+    Create a second branch that revises your code and states
+    if the user was correct or not
 */
 
 #include <iostream>
@@ -28,5 +29,6 @@ int main()
     cout << "--------\n";
     cin >> input;
     total = num1 + num2;
-    cout << total;
+    if (input == total) cout << "You are correct";
+    else cout << "Your answer is not correct";
 }
