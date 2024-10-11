@@ -1,23 +1,30 @@
-/*  Project Name: Chapter 2 Exercise 18 - Energy Drinks
-    File Name: ConsoleApplication1.cpp
-    Programmer: Harrison Hudgins
-    Date: September 25, 2024
-    Requirements:
-    A soft drink company recently surveyed 16,500 of its customers and found that approximately 15 percent of those surveyed purchase one or more energy drinks per week.
-    Of those customers who purchase energy drinks, approximately 58 percent of them prefer citrus-flavored energy drinks. Write a program that displays the following:
-    • The approximate number of customers in the survey who purchase one or more energy drinks per week.
-    • The approximate number of customers in the survey who prefer citrus-flavored energy drinks.
-*/
-
 #include <iostream>
 using namespace std;
+
+double sales;
+double commissionRate;
+
+double advPay;
+
 int main()
 {
-    double customers = 16500;
-    double returningCustomers = 0.15;
-    double citrusCustomers = 0.58;
-    double customerPercentage = customers * returningCustomers;
-    cout << customerPercentage << " customers buy one or more energy drink per week.\n";
-    customerPercentage = customers * citrusCustomers;
-    cout << customerPercentage << " customers prefer citrus drinks.\n";
+    cout << "Enter the salesperson's monthly sales: ";
+        cin >> sales;
+        if (sales < 10000) commissionRate = 0.05;
+        else if (10000 < sales and sales < 14999) commissionRate = 0.10;
+        else if (15000 < sales and sales < 17999) commissionRate = 0.12;
+        else if (18000 < sales and sales < 21999) commissionRate = 0.14;
+        else if (22000 < sales) commissionRate = 0.16;
+
+    cout << "Enter the salesperon's Advanced Pay: ";
+        cin >> advPay;
+        double commission = (sales * commissionRate);
+        double remainingPay = commission - advPay;
+
+    cout << "\nPay Results\n-----------";
+    cout << "\nSales: $" << sales;
+    cout << "\nCommision Rate: " << commissionRate;
+    cout << "\nCommission: $" << commission;
+    cout << "\nAdvanced Pay: $" << advPay;
+    cout << "\nRemaining Pay: $" << remainingPay;
 }
