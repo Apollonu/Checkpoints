@@ -3,7 +3,6 @@ using namespace std;
 
 double sales;
 double commissionRate;
-
 double advPay;
 
 int main()
