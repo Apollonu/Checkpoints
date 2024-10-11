@@ -15,7 +15,7 @@ int main()
         cout << "1. Add\n2. Subtract\n3. Multiplication\n4. Division\n5. Power\n\n";
             cin >> choice;
         if (choice < 1) break;
-        if (choice == 1)
+        else if (choice == 1)
         {
             cout << "\nEnter a number: ";
             cin >> num1;
