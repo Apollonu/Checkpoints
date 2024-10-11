@@ -1,29 +1,60 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-double sales;
-double commissionRate;
-double advPay;
+int choice;
+double num1;
+double num2;
+double ans;
 
 int main()
 {
-    cout << "Enter the salesperson's monthly sales: ";
-        cin >> sales;
-        if (sales < 10000) commissionRate = 0.05;
-        else if (10000 < sales and sales < 14999) commissionRate = 0.10;
-        else if (15000 < sales and sales < 17999) commissionRate = 0.12;
-        else if (18000 < sales and sales < 21999) commissionRate = 0.14;
-        else if (22000 < sales) commissionRate = 0.16;
-
-    cout << "Enter the salesperon's Advanced Pay: ";
-        cin >> advPay;
-        double commission = (sales * commissionRate);
-        double remainingPay = commission - advPay;
-
-    cout << "\nPay Results\n-----------";
-    cout << "\nSales: $" << sales;
-    cout << "\nCommision Rate: " << commissionRate;
-    cout << "\nCommission: $" << commission;
-    cout << "\nAdvanced Pay: $" << advPay;
-    cout << "\nRemaining Pay: $" << remainingPay;
+    while (true)
+    {
+        cout << "Choose an operation to use with 2 numbers, or a value less than 1 to quit.\n";
+        cout << "1. Add\n2. Subtract\n3. Multiplication\n4. Division\n5. Power\n\n";
+            cin >> choice;
+        if (choice < 1) break;
+        if (choice == 1)
+        {
+            cout << "\nEnter a number: ";
+            cin >> num1;
+            cout << "\nEnter another number: ";
+            cin >> num2;
+            ans = num1 + num2;
+        }
+        else if (choice == 2)
+        {
+            cout << "\nEnter a number: ";
+            cin >> num1;
+            cout << "\nEnter another number: ";
+            cin >> num2;
+            ans = num1 - num2;
+        }
+        else if (choice == 3)
+        {
+            cout << "\nEnter a number: ";
+            cin >> num1;
+            cout << "\nEnter another number: ";
+            cin >> num2;
+            ans = num1 * num2;
+        }
+        else if (choice == 4)
+        {
+            cout << "\nEnter a number: ";
+            cin >> num1;
+            cout << "\nEnter another number: ";
+            cin >> num2;
+            ans = num1 / num2;
+        }
+        else if (choice == 5)
+        {
+            cout << "\nEnter a number: ";
+            cin >> num1;
+            cout << "\nEnter another number: ";
+            cin >> num2;
+            ans = pow(num1, num2);
+        }
+        cout << "\nYour answer is: " << ans << "\n";
+    }
 }
